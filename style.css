@@ -1,0 +1,709 @@
+@font-face {
+    font-family: "Oswald";
+    src: url(oswald.bold.ttf);
+}
+/* --------------------------- */
+/* -------Section One--------- */
+/* --------------------------- */
+.section-one
+{
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(toyotaLandCruiser-imgone.jpg);
+    background-position: 100% 50%;
+    display: flex;
+}
+
+.section-one .containerone
+{
+   width: 1250px;
+   height: 850px;
+   margin: auto;
+   /* border: solid red; */
+   display: flex;
+}
+
+.section-one .containerone .subcontainerone
+{
+    width: 940px;
+    height: 384px;
+    text-align: right;
+    margin: 420px 0px 45px auto;
+    /* border: solid blue; */
+}
+
+.section-one .containerone .subcontainerone .text-one
+{   
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 4.5rem;
+    margin: 0px 0px 0px 0px;
+    font-family: "Oswald", sans-serif;
+}
+
+.section-one .containerone .subcontainerone .text-two
+{   
+    color: #facd3d;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 700;
+    /* margin: 11px 0 0 20px; */
+    margin: 0px 0px 0px 0px;
+    font-family: "Oswald", sans-serif;
+}
+
+.section-one .containerone .subcontainerone .text-three
+{   
+    color: #ffffff ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 20px 0 0 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+/* --------------------------- */
+/* -------Section Two--------- */
+/* --------------------------- */
+.section-two
+{
+    width: 100%;
+    height: 850px;
+    /* border: solid white; */
+    background-image: url(landCruzer-Img\ two.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+}
+
+.section-two .container-two
+{
+    width: 980px;
+    height: 795px;
+    margin: auto;
+    /* border: solid red; */
+}
+
+.section-two .container-two .subacontainertwo
+{
+    width: 975px;
+    height: 655px;
+    /* border: solid blue; */
+    margin:  33px auto 80px 0px;
+}
+.section-two .container-two .subacontainertwo .layout
+{
+    width: 970px;
+    height: 650px;
+    /* border: solid blue; */
+    display: flex;
+}
+.section-two .container-two .subacontainertwo .layout .layout-one
+{
+  width: 480px;
+  height: 645px;
+  /* border: solid red; */
+}
+
+.section-two .container-two .subacontainertwo .layout .layout-one .textpart-one
+{   
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-family: "Oswald", sans-serif;
+    margin: 38px 464px 0 0;
+}
+
+.section-two .container-two .subacontainertwo .layout .layout-one .textpart-two
+{   
+    color: #facd3d;
+    font-weight: 700;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    margin: 7px 20px 0 0;
+}
+.section-two .container-two .subacontainertwo .layout .layout-one .textpart-three
+{   
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-family: "Oswald", sans-serif;
+    margin: 20px 20px 0 0;
+}
+
+.section-two .container-two .subacontainertwo .layout .layout-one .paragraphone
+{   
+    color: #ffffff;
+    font-size: 0.900rem;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 1.6;
+    margin: 109px 121px 60px 0;
+}
+.section-two .container-two .subacontainertwo .layout .layout-two
+{
+  width: 480px;
+  height: 645px;
+  /* border: solid red; */
+}
+
+.section-two .container-two .subacontainertwo .layout .layout-two .paragraphtwo
+{   
+    color: #ffffff;
+    font-size: 0.900rem;
+    font-family: 'Open Sans',sans-serif;
+    margin: 44px 121px 0px 0px;
+    line-height: 1.6;
+}
+
+.section-two .container-two .subacontainertwo .layout .layout-two .toyotaofficallinkarea
+{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    /* border: solid white; */
+}
+.section-two .container-two .subacontainertwo .layout .layout-two .toyotalink
+{   
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+    margin-top: 5px;
+    text-decoration-color: #facd3d;
+}
+
+/* --------------------------- */
+/* -------Section Three--------- */
+/* --------------------------- */
+.section-three
+{
+    width: 100%;
+    height: 528px;
+    background-color: black;
+}
+.section-three .subcontainerthree
+{
+    width: 1100px;
+    height: 522px;
+    margin: auto;
+    /* border: solid white; */
+    display: block;
+}
+
+.section-three .subcontainerthree .areaone
+{
+   height: 195px;
+   width: 1095px;
+   /* border: solid blue; */
+   display: flex;
+   justify-content: flex-end;
+}
+
+.section-three .subcontainerthree .areaone .contentone
+{
+    height: 190px;
+    width: 547px;
+    /* border: solid red; */
+    text-align: right;  
+}
+
+.section-three .subcontainerthree .areaone .contentone .content-text-one
+{   
+    font-family: "Oswald", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin: 15px 15px 0px auto;
+}
+
+.section-three .subcontainerthree .areaone .contentone .content-text-two
+{
+    font-family: "Oswald", sans-serif;
+    color: #facd3d;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 10px 15px 30px 100px;
+}
+
+.section-three .subcontainerthree .areatwo
+{
+    height: 315px;
+    width: 1095px;
+    /* border: solid yellow; */
+}
+
+.section-three .subcontainerthree .areatwo .contenttwo
+{
+    height: 310px;
+    width: 1090px;
+    /* border: solid green; */
+    display: flex;
+}
+
+.section-three .subcontainerthree .areatwo .contenttwo .services
+{
+   height: 305px;
+   width: 270px;
+   /* border: solid yellowgreen; */
+   display: flex;
+   justify-content: center;
+}
+
+.section-three .subcontainerthree .areatwo .contenttwo .services .servicearea
+{
+    height: 300px;
+    width: 230px;
+    /* border: solid red; */
+}
+.section-three .subcontainerthree .areatwo .contenttwo .services .servicearea .service-img
+{
+    height: 64px;
+    width: 64px;
+    display: block;
+    /* border: solid blue; */
+
+}
+.section-three .subcontainerthree .areatwo .contenttwo .services .servicearea .services-text
+{
+    color: #ffffff;
+    font-size: 2.25rem;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0px 0px 0px;
+}
+
+.section-three .subcontainerthree .areatwo .contenttwo .services .servicearea .services-para
+{
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 23px;
+}
+
+/* --------------------------- */
+/* -------Section Four--------- */
+/* --------------------------- */
+.section-four
+{
+  height: 656px;
+  width: 100%;
+  background-image: url(toyotaLandCruiser-img\ seven.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-four-container
+{
+  height: 650px;
+  width: 1100px;
+  /* border: solid red; */
+  margin: auto;
+  display: flex;
+}
+
+.section-four-containerone
+{
+  height: 270px;
+  width: 710px;
+  display: flex;
+  /* border: solid blue; */
+  margin: 315px auto 50px 0px;
+}
+
+.section-four-subcontainer
+{
+   height: 266px;
+   width: 695px;
+   /* border: solid yellow; */
+   margin-left: 10px; 
+}
+
+#section-four-textone
+{   
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 30px auto 0px 0px;
+}
+
+#section-four-texttwo
+{
+    color: #facd3d;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 10px auto 15px 0px;
+}
+
+.toyotalink
+{
+    color: #ffffff;
+    text-decoration-color: #facd3d;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 15px;
+}
+
+/* --------------------------- */
+/* -------Section Five--------- */
+/* --------------------------- */
+.section-five
+{
+    width: 100%;
+    height: 1000px;  
+    /* border: solid red; */
+    background-image: url(toyotaLandCruiser-img\ three.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.section-five-container
+{
+    height: 890px;
+    width: 1200px;
+    margin: auto;
+    /* border: solid blue; */
+    display: flex;
+}
+
+.section-five-subcontainer
+{
+    height: 370px;
+    width: 650px;
+    /* border: solid yellowgreen; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 80px auto;
+    text-align: right;
+    
+}
+
+.section-five-content
+{
+    height: 365px;
+    width: 630px;
+    /* border: solid green; */
+    margin-right: 5px;
+}
+
+#section-five-textone
+{
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px 0px 0px 20px;
+}
+
+#section-five-texttwo
+{   
+    color: #facd3d;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 10px 0px 0px 20px;
+}
+
+/* --------------------------- */
+/* -------Section Six--------- */
+/* --------------------------- */
+.section-six
+{
+    height: 670px;
+    width: 100%;
+    /* border: solid red; */
+    background-color: black;
+}
+
+.section-six-container
+{
+    height: 660px;
+    width: 1150px;
+    margin: auto;
+    /* border: solid yellow; */
+    display: block;
+}
+
+.section-six-subcontainerone
+{
+    height: 320px;
+    width: 1145px;
+    /* border: solid green; */
+    display: flex;
+}
+
+.section-six-subcontainerone-content
+{
+    height: 250px;
+    width: 600px;
+    /* border: solid red; */
+    margin: 50px auto 10px 10px;
+}
+
+#section-six-textone
+{   
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.880rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px auto 10px 0px;
+}
+
+#section-six-texttwo
+{
+    color: #facd3d;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 30px auto 10px 0px;
+}
+
+.section-six-containertwo
+{
+    height: 320px;
+    width: 1145px;
+    /* border: solid blue; */
+}
+.section-six-subcontainertwo
+{
+    height: 270px;
+    width: 1140px;
+    /* border: solid red; */
+    margin: 20px 0px 20px 0px;
+    display: flex;
+}
+
+.section-six-subcontainertwo-content
+{
+    height: 260px;
+    width: 375px;
+    /* border: solid green; */
+    display: flex;
+}
+
+#section-six-subcontainertwo-imgcontent
+{
+   height: 220px;
+   width: 340px;
+   /* border: solid red; */
+   margin: 15px 10px 10px 15px;
+}
+
+/* --------------------------- */
+/* -------Section Seven------- */
+/* --------------------------- */
+.section-seven
+{
+    height: 750px;
+    width: 100%;
+    /* border: solid red; */
+}
+
+.sectin-seven-container
+{
+   width:  100%;
+   height: 100%;
+   display: grid;
+   grid-template-columns: auto auto;
+   gap : 0px;
+   /* border: solid green; */
+}
+
+#section-seven-content-img 
+{
+  
+   height: 375px;
+   /* width: 750px; */
+   /* border: solid blue; */
+}
+
+.landCruzerimages
+{  
+   height: 375px; 
+   width: 100%;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+} 
+
+/* --------------------------- */
+/* -------Section Eight------- */
+/* --------------------------- */
+.section-eight
+{   
+    height: 650px;
+    width: 100%;
+    /* border: solid blue; */
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(toyotaLandCruiser-img\ twelve.jpg);
+    background-position: 50% 50%;
+}
+
+.section-eight-container
+{
+    height: 640px;
+    width: 1250px;
+    margin: auto;
+    /* border: solid yellow; */
+    display: flex;
+}
+
+.section-eight-subcontainer
+{
+    height: 550px;
+    width: 1245px;
+    margin: 30px auto 30px 0px;
+    /* border: solid red; */
+    display: flex;
+}
+
+.section-eight-contentareaone
+{
+    height: 545px;
+    width: 620px;
+    /* border: solid blue; */
+    display: flex; 
+}
+
+.section-eight-contentone
+{
+    height: 540px;
+    width: 580px; 
+    margin: 0px 0px 0px 30px;
+    /* border: solid yellow; */
+    
+}
+
+.section-eight-text
+{   
+    color: #facd3d;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    margin: 50px auto 20px 0px;
+}
+
+.section-eight-paragraph
+{   
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 0.875rem;
+    margin: 10px auto 0px 0px;
+}
+
+.section-eight-contentareatwo
+{
+    height: 545px;
+    width: 620px;
+    /* border: solid yellow; */
+    display: flex; 
+}
+
+.section-eight-contenttwo
+{
+    height: 540px;
+    width: 580px;
+    margin: 0px 0px 0px 30px;
+    /* border: solid blue; */
+}
+
+.section-eight-contenttwotext
+{   
+    font-family: "Oswald", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin: 70px 0px 10px 0px; 
+}
+
+.section-eight-form
+{
+    height: 380px;
+    width: 400px; 
+    /* border: solid red; */
+}
+
+.formdiv
+{   
+    margin-bottom: 15px;
+}
+
+#nametext
+{   
+    height: auto;
+    width: 90%;
+    text-align: left;
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: 'Open Sans',sans-serif;
+    padding: 10px 12px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;   
+}
+
+#emailid
+{
+    height: auto;
+    width: 90%;
+    text-align: left;
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: 'Open Sans',sans-serif;
+    padding: 10px 12px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; 
+}
+
+#txtarea
+{
+    height: auto;
+    width: 90%;
+    text-align: left;
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: 'Open Sans',sans-serif;
+    padding: 10px 12px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    overflow: auto;
+}
+
+#submitbtn
+{   
+    color: #111111 ;
+    font-size: 1rem;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #facd3d;
+    text-align: center;
+    padding: 7px 20px;
+    border-color: #facd3d;
+}
+
+#submitbtn:hover
+{
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
